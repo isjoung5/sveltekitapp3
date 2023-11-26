@@ -17,4 +17,3 @@ jobs:
           port: ${{ secrets.SERVER_SSH_PORT }} # 접속포트
           script: | # 실행할 스크립트
             cd /var/work
-            mkdir test99
